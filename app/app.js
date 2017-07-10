@@ -8,19 +8,17 @@ if (module.hot) {
 import ReactDOM from 'react-dom';
 import React from 'react';
 import './css/test.css';
-import Repay from './components/repay.jsx';
-
-//
+import AppRoutes from './components/AppRoutes.jsx'
 
 
 const App = () => (
     <Provider store={store}>
         <div>
-            <Repay/>
+            Hello
         </div>
     </Provider>
 );
 
 ReactDOM.render(
-    <App/>
+    <AppRoutes/>
     , document.getElementById('root'));
